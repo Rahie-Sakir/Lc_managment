@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="borderpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lc_management_software.CALandingPage">
+    <top>
+        <AnchorPane prefHeight="107.0" prefWidth="602.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button layoutX="32.0" layoutY="38.0" mnemonicParsing="false" onAction="#handlePerformInvoice" text="View Proforma Invoice" />
+                <Label fx:id="name" layoutX="264.0" layoutY="14.0" prefHeight="17.0" prefWidth="174.0" text="Name" />
+                <Button layoutX="496.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleLogout" text="Logout" />
+            <Button layoutX="186.0" layoutY="38.0" mnemonicParsing="false" onAction="#handleClientInformaiton" text="Client information" />
+            <Button layoutX="318.0" layoutY="38.0" mnemonicParsing="false" onAction="#handleMarchentInfo" text="Merchant information" />
+            <Button layoutX="467.0" layoutY="60.0" mnemonicParsing="false" onAction="#handleFinentialState" text="Financial state" />
+            <Button layoutX="38.0" layoutY="72.0" mnemonicParsing="false" onAction="#handleBandCreditdata" text="bank’s creditdata." />
+            <Button layoutX="213.0" layoutY="72.0" mnemonicParsing="false" onAction="#handleAnalyticsData" text="analytics data" />
+            <Button layoutX="336.0" layoutY="72.0" mnemonicParsing="false" onAction="#handleFienncialReport" text="Financial report" />
+            </children>
+        </AnchorPane>
+    </top>
+    <center>
+        <AnchorPane prefHeight="404.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
+    </center>
+</BorderPane>

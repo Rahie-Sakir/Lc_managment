@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.lc_management_software.GMCheckClientsInformation">
+    <children>
+        <TableView layoutX="52.0" layoutY="61.0" prefHeight="200.0" prefWidth="539.0">
+            <columns>
+                <TableColumn prefWidth="75.0" text="C1"/>
+                <TableColumn prefWidth="75.0" text="C2"/>
+            </columns>
+        </TableView>
+        <Label layoutX="270.0" layoutY="37.0" text="Clients Information"/>
+        <Label layoutX="52.0" layoutY="298.0" text="Name"/>
+        <Label fx:id="displayName" layoutX="112.0" layoutY="299.0" text="Nahian Ahmed"/>
+    </children>
+</AnchorPane>

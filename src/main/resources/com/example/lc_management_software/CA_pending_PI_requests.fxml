@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lc_management_software.CAPendingPIRequests">
+    <children>
+        <TableView fx:id="table" layoutX="14.0" layoutY="87.0" prefHeight="249.0" prefWidth="576.0">
+            <columns>
+                <TableColumn fx:id="idCol" prefWidth="118.0" text="ID" />
+                <TableColumn fx:id="Email" prefWidth="149.0" text="Email" />
+                <TableColumn fx:id="dateCol" prefWidth="89.0" text="Date" />
+                <TableColumn fx:id="statusCol" prefWidth="85.0" text="Status" />
+            <TableColumn fx:id="acceptCol" prefWidth="64.0" text="Accept" />
+            <TableColumn fx:id="rejectCOl" prefWidth="70.0" text="Reject" />
+            </columns>
+        </TableView>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="167.0" layoutY="34.0" text="pending Proforma Invoice (PI)requests" textAlignment="CENTER">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

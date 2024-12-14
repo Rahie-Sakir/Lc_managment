@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.lc_management_software.ClientConfirmingSubmissionAndReviewTerms"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <!-- Event 1: Summary of LC request -->
+    <Label fx:id="summaryLabel" text="Summary of LC Request" layoutX="20" layoutY="20" />
+    <TextArea fx:id="termsTextArea" promptText="Terms, Conditions, and Fees" layoutX="20" layoutY="50" prefHeight="200" prefWidth="560" />
+    
+    <!-- Event 2: Confirm or Edit Details -->
+    <Button fx:id="confirmButton" text="Confirm" onAction="#handleConfirm" layoutX="20" layoutY="270" />
+    
+    <!-- Event 4: Confirmation Message -->
+    <Label fx:id="confirmationMessage" text="" layoutX="20" layoutY="310" />
+
+</AnchorPane>

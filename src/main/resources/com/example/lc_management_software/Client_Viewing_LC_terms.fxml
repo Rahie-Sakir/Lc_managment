@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lc_management_software.ClientViewingLCTerms">
+   <children>
+      <TextArea fx:id="displayTerms" editable="false" layoutX="53.0" layoutY="59.0" prefHeight="259.0" prefWidth="515.0" />
+      <Text layoutX="53.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Terms and conditions:" />
+   </children>
+</AnchorPane>

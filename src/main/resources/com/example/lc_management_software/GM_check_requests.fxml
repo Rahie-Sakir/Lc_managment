@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lc_management_software.GMCheckRequests">
+   <children>
+      <TableView layoutX="22.0" layoutY="44.0" prefHeight="200.0" prefWidth="562.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Status" />
+          <TableColumn prefWidth="75.0" text="action send" />
+        </columns>
+      </TableView>
+      <Label layoutX="272.0" layoutY="14.0" text="PI Request" />
+   </children>
+</AnchorPane>
